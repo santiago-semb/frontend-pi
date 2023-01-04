@@ -1,0 +1,8 @@
+ul {
+    background-color: gray;
+    border-bottom: 1px outset black;
+}
+
+ul li {
+    margin: 0 auto;
+}

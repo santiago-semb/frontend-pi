@@ -1,0 +1,38 @@
+.content {
+    width: 100%;
+    margin: 0 auto; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.contenido {
+    width: 20%; 
+    height: 200px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 210px;
+    margin-top: 25px;
+}
+
+#imagen {
+    width: 220px;
+    height: 200px;
+    border-radius: 1em;
+    border: 2px outset #ccc;
+    transition: 200ms all;
+    max-width: 100%;
+}
+
+#imagen:hover {
+    font-size:50px;
+}
+
+@media (max-width: 508px) {
+    .contenido {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
